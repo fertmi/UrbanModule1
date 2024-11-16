@@ -5,4 +5,3 @@ mutable_list = ['String', 10, 2.5, [9,5]]
 print('Список: ',mutable_list)
 mutable_list[0]='Change'
 print('Измененный список: ',mutable_list)
-
