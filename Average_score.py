@@ -3,7 +3,7 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 students_list=[] #создание пустого списка
 students_list.extend(students) #добавление в список из множества
 students_list.sort() #сортировка в списке по алфавиту
-students_dict={}
+students_dict={} #создание словаря
 students_dict.update({students_list[0]:sum(grades[0])/len(grades[0])}) #Добавление в словарь первого элемента
 students_dict.update({students_list[1]:sum(grades[1])/len(grades[1])}) #Добавление в словарь второго элемента
 students_dict.update({students_list[2]:sum(grades[2])/len(grades[2])}) #Добавление в словарь третьего элемента
